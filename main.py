@@ -4,7 +4,7 @@ def print_pyramid(n: int):
         for j in range(n-i):
             print(' ', end='')
         for k in range(1, 2*i):
-            print('*', end='');
+            print('*', end='')
         print()
     raise NotImplementedError
 
