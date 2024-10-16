@@ -5,6 +5,8 @@ def print_pyramid(n: int):
 
 def print_inverted_pyramid(n: int):
     # TODO: implement this function
+    for i in range(1,n):
+        print(" "*(i) + "*"*(2*(n-i)-1))
     raise NotImplementedError
 
 
